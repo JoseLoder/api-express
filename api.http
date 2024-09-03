@@ -1,0 +1,13 @@
+### Para acceder a la página web
+GET http://localhost:1234/
+
+### Para acceder a la API
+GET http://localhost:1234/ditto
+
+### Para crear un pokemon
+POST http://localhost:1234/pokemon
+
+{
+  "name": "Pikachu",
+  "type": "Electric"
+}

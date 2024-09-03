@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "1.http.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev1": "node --watch 1.http.js",
+    "dev2": "node --watch 2.routing.js",
+    "dev3": "node --watch 3.express.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +16,8 @@
   },
   "eslintConfig": {
     "extends": "standard"
+  },
+  "dependencies": {
+    "express": "4.19.2"
   }
 }
